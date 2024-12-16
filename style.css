@@ -1,0 +1,39 @@
+/*
+Theme Name: StudioKiss
+Theme URI: https://studiokiss.com
+Author: StudioKiss Team
+Author URI: https://studiokiss.com
+Description: A professional photography studio theme with modern design and responsive layout
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: studiokiss
+*/
+
+/* Base styles */
+:root {
+  --primary-color: #ff4d6d;
+  --secondary-color: #2b2d42;
+  --text-color: #2b2d42;
+  --light-bg: #f8f9fa;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Responsive breakpoints */
+@media (min-width: 375px) {
+  /* Mobile styles */
+}
+
+@media (min-width: 768px) {
+  /* Tablet styles */
+}
+
+@media (min-width: 1366px) {
+  /* Desktop styles */
+}
